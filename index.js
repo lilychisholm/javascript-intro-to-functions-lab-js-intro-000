@@ -24,8 +24,9 @@ mixedCase.toLowerCase() === mixedCase // false
 
 mixedCase.toUpperCase() === mixedCase
 
-var string = lowercase
-switch(string) {
-  case "hello":
-    console.log("I can't hear you!")
+function sayHiToGrandma(string){
+  if (string === 'hello') {
+    return console.log ("I can\'t hear you!")
   }
+}
+
